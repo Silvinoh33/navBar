@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+    background: rgb(7, 6, 8);
+}
+
+.bg{
+    background-image: url('./bg_image.jpg');
+    background-size: cover;
+    height: 800px;
+
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    color: white;
+    padding:30px;
+}
+.bgColor {
+    background: white;
+    color: rgb(65, 65, 65);
+    border-bottom: 1px solid lightgray;
+    transition: background 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-transition: background 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -moz-transition: background 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -ms-transition: background 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -o-transition: background 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+
+li{
+    display: inline;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
